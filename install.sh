@@ -4,7 +4,7 @@ set -e
 REPO="AkashKamatCreates/cbreath"
 VERSION="1.0.0-1"
 DEB="cbreath_${VERSION}_amd64.deb"
-URL="https://github.com/${REPO}/releases/download/v1.0.0/${DEB}"
+URL="https://github.com/${REPO}/releases/download/${TAG}/${DEB}"
 
 echo
 echo "🔹 Installing cbreath (CLI breathing guide)…"
