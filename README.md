@@ -43,16 +43,17 @@ No noise.
 
 ### One-line install (recommended)
 
+```bash
 curl -fsSL https://raw.githubusercontent.com/AkashKamatCreates/cbreath/main/install.sh | bash
-
+```
 After installation, restart your terminal or run:
-
+``` bash
 hash -r
-
+```
 Then run:
-
+``` bash
 cbreath
-
+```
 ## 🧭 Usage
 
 cbreath [MODE]  
