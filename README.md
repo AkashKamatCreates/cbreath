@@ -62,7 +62,7 @@ cbreath TOTAL INHALE HOLD_IN EXHALE HOLD_OUT
 cbreath --help
 
 ## 🌬 Breathing Modes
-
+``` bash
 box        Inhale 4 · Hold 4 · Exhale 4 · Hold 4  
 478        Inhale 4 · Hold 7 · Exhale 8  
 relax      Inhale 5 · Hold 2 · Exhale 7 · Hold 3  
@@ -70,11 +70,11 @@ calm       Inhale 6 · Hold 2 · Exhale 8 · Hold 2
 focus      Inhale 4 · Exhale 6  
 sleep      Inhale 4 · Hold 7 · Exhale 8  
 energize   Inhale 3 · Exhale 3  
-
+```
 Example:
-
+``` bash
 cbreath box
-
+```
 
 
 ## 🛠 Manual Mode
@@ -84,9 +84,9 @@ Create your own breathing pattern:
 cbreath manual TOTAL INHALE HOLD_IN EXHALE HOLD_OUT
 
 Example:
-
+``` bash
 cbreath manual 300 4 4 6 2
-
+```
 ## ⌨ Key Controls
 
 Space   Pause / Resume  
@@ -100,18 +100,18 @@ You may create a config file at:
 ./cbreath.conf (local override)
 
 Example:
-
+``` bash
 total_time=600  
 preset=box  
 
-# Or custom timings:
-# inhale=4
-# hold_in=4
-# exhale=4
-# hold_out=4
+ Or custom timings:
+ inhale=4
+ hold_in=4
+ exhale=4
+ hold_out=4
 
 sound=off
-
+```
 Command-line arguments always override config values.
 
 
